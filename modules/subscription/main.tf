@@ -1,4 +1,3 @@
-
 locals {
   resource_cname = join("-", [var.workload, var.location.short])
 }
